@@ -1,0 +1,78 @@
+
+.Seccion {
+    background-color: #f7f5f5; 
+    color: #000000; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 10vh ; 
+    margin-top: 70px;
+}
+
+
+.Seccion h2 {
+    margin: auto;
+    color: #000; 
+    border-bottom: 2px solid #838282; 
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    
+}
+
+
+.Seccion p {
+    color: #000000; 
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+
+.Seccion ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Seccion li {
+    color: #000000; 
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+
+.Boton {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Boton:hover {
+    background-color: #555; 
+}
+
+.Boton:active {
+    background-color: #111;
+}
+
+
+.lista-productos{
+    text-align: left;
+}
+
+.Seccion img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
